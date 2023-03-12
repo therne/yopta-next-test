@@ -4,6 +4,7 @@ import { buttonVariants } from '@/components/ui/button';
 import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
+import { YoptaWrapper } from '../components/YoptaWrapper';
 
 export default function IndexPage() {
   return (
@@ -48,7 +49,7 @@ export default function IndexPage() {
         </div>
       </section>
       <section className="hidden lg:block">
-        <AppleMusicDemo />
+        <YoptaWrapper />
       </section>
     </>
   );
